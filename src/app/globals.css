@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+html, body {
+  @apply font-sans bg-white;
+}
+
+@utility navlink {
+  @apply text-purple-200/90 hover:underline hover:text-red-500/95 font-semibold hover:italic;
+}
+
+@utility flex-center {
+  @apply flex justify-center items-center;
+}
