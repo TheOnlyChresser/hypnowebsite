@@ -11,3 +11,7 @@ html, body {
 @utility flex-center {
   @apply flex justify-center items-center;
 }
+
+@utility download {
+  @apply hover:scale-105 cursor-pointer shadow-lg shadow-white;
+}
