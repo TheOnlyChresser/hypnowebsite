@@ -1,6 +1,12 @@
 import Image from "next/image"
 
-export default function Row ({image, heading, text}) {
+type RowProps = {
+    image: string,
+    heading: string,
+    text: string,
+}
+
+export default function Row ({image, heading, text}: RowProps) {
     return (
         <section className="w-full flex-col md:flex-row flex h-100 text-white/95 px-5 my-10 mt-50">
             <div className="flex-1 md:hidden mb-5 md:mb-0 relative h-100 bg-white">
